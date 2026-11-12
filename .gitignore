@@ -2,8 +2,6 @@ node_modules/
 dist/
 .turbo/
 *.log
-.env
-.env.local
 .env.*.local
 coverage/
 .DS_Store
@@ -24,3 +22,4 @@ apps/desktop/src-tauri/gen/schemas/
 .e2e-s3/
 apps/web/playwright-report/
 apps/web/test-results/
+config.bat

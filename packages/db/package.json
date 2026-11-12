@@ -15,7 +15,7 @@
     "push": "drizzle-kit push",
     "studio": "drizzle-kit studio",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "build": "echo 'db: ts consumed directly'",
+    "build": "node init && echo 'db: ts consumed directly'",
     "lint": "echo 'no lint'"
   },
   "dependencies": {
